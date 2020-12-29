@@ -1,0 +1,32 @@
+{
+  "init":{
+    "percentageInfected": "5",
+    "percentageRecovered": "0",
+
+    "susceptibleColor":"9.9",
+    "infectedColor":"15",
+    "recoveredColor":"55"
+  },
+  
+  "susceptibleParamaters":{
+    "s":"75"
+	
+    
+  },
+  
+  "infectionParamaters":{
+    "close":"5",
+	"medium":"3",
+	"far":"2"
+   
+    
+  },
+  
+  "recoveryParamaters":{
+    "nonHospital":"1",
+	"hospital":"5"
+	
+	
+    
+  }
+}

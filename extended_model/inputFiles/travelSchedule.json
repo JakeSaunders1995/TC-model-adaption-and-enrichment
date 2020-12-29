@@ -1,0 +1,18 @@
+{
+  "SchedulePerson":{
+    "Isolated?": {
+      
+      "Hospitalized?":{"Infected?":"recover","nonInfected?":"unisolate"},
+      
+      "NonHospitalized?":{"Infected?":"recover","nonInfected?":"unisolate"}
+    },
+    
+    
+    "NonIsolated?": {
+      
+      "Hospitalized?":{"Infected?":"recover","nonInfected?":"unisolate"},
+    
+    "NonHospitalized?":{"Infected?":"move/infect/isolate/hospitalize/recover","nonInfected?":"move"}
+  }
+  }
+}

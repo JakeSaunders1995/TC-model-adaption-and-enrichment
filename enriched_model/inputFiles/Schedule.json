@@ -1,0 +1,168 @@
+{
+  "beahvioursPerson": {
+    "completed": {
+      "home": {
+        "adult": {
+          "infected": [
+            "complete",
+            "work",
+            "move",
+            "infect",
+            "recover"
+          ],
+          "nonInfected": [
+            "complete",
+            "work",
+            "move"
+          ]
+        },
+        "child": {
+          "infected": [
+            "complete",
+            "school",
+            "move",
+            "infect",
+            "recover"
+          ],
+          "nonInfected": [
+            "complete",
+            "school",
+            "move"
+          ]
+        }
+      },
+      "poi": {
+        "adult": {
+          "infected": [
+            "complete",
+            "home",
+            "move",
+            "infect",
+            "recover"
+          ],
+          "nonInfected": [
+            "complete",
+            "home",
+            "move"
+          ]
+        },
+        "child": {
+          "infected": [
+            "complete",
+            "home",
+            "move",
+            "infect",
+            "recover"
+          ],
+          "nonInfected": [
+            "complete",
+            "home",
+            "move"
+          ]
+        }
+      },
+      "hospital": {
+        "adult": {
+          "infected": [
+            "hospital",
+            "recover"
+          ],
+          "nonInfected": [
+            "complete",
+            "home",
+            "move"
+          ]
+        },
+        "child": {
+          "infected": [
+             "hospital",
+             "recover"
+          ],
+          "nonInfected": [
+            "complete",
+            "home",
+            "move"
+          ]
+        }
+      }
+    },
+    "nonCompleted": {
+      "home": {
+        "adult": {
+          "infected": [
+            "home",
+            "move",
+            "infect",
+            "recover"
+          ],
+          "nonInfected": [
+            "home",
+            "move"
+          ]
+        },
+        "child": {
+          "infected": [
+            "home",
+            "move",
+            "infect",
+            "recover"
+          ],
+          "nonInfected": [
+            "home",
+            "move"
+          ]
+        }
+      },
+      "poi": {
+        "adult": {
+          "infected": [
+            "work",
+            "move",
+            "infect",
+            "recover"
+          ],
+          "nonInfected": [
+            "work",
+            "move"
+          ]
+        },
+        "child": {
+          "infected": [
+            "school",
+            "move",
+            "infect",
+            "recover"
+          ],
+          "nonInfected": [
+            "school",
+            "move"
+          ]
+        }
+      },
+      "hospital": {
+        "adult": {
+          "infected": [
+            "hospital",
+            "recover"
+          ],
+          "nonInfected": [
+            "complete",
+            "home",
+            "move"
+          ]
+        },
+        "child": {
+          "infected": [
+             "hospital",
+             "recover"
+          ],
+          "nonInfected": [
+            "complete",
+            "home",
+            "move"
+          ]
+        }
+      }
+    }
+  }
+}
